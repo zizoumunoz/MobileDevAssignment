@@ -60,7 +60,7 @@
         android:layout_marginEnd="101dp"
         android:alpha="100"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:text="password"
         app:layout_constraintBottom_toTopOf="@+id/nextButton"
         app:layout_constraintEnd_toEndOf="parent"
