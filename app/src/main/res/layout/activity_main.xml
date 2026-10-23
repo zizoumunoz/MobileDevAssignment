@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="258dp"
-        android:layout_height="59dp"
+        android:layout_width="177dp"
+        android:layout_height="49dp"
         android:text="Bubbles"
         android:textAlignment="center"
         android:textSize="34sp"
@@ -67,5 +67,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:srcCompat="@drawable/baseline_copyright_24"
+        tools:layout_editor_absoluteY="190dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
